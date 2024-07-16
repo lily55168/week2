@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+.container {
+    margin: 0 auto;
+    width: 1296px;
+}
+
+body {
+    font-family: 'Bruno Ace SC', serif;
+    line-height: 1.5;
+}
+.fill{
+    background-color: green;
+}   
+.nav1
+{
+    background-color: black;
+     
+}
+
+
+.box1{
+   
+    background-color: black ;
+    
+} 
+.box2{
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
+   
+   
+} 
+
+.box3{
+    
+    background-color: white   ;
+   
+} 
+
+.box4{
+    
+    background-color: black   ;
+
+} 
+.box5{
+    
+    background-color: white   ;
+
+} 
+.item1{
+   
+    font-size: 16px;
+    color: white; 
+    }
+.item1-1{
+        font-size: 16px;
+        color:black; 
+}
+.item2
+{  
+color: white;
+font-size: 64px;
+}
+.item2-black
+{  
+color: black;
+font-size: 64px;
+}
+.item3
+{  
+color: #00FFA3;
+font-size: 128px;
+}
+.item4
+{ 
+width: Hug (185px)px;
+height: Hug (48px)px;
+padding: 12px 24px 12px 24px;
+border-radius: 32px;
+opacity: 0px;
+color: black;
+font-size: 16px;
+background-color: white;
+}
+.item4-1
+{ 
+width: Hug (185px)px;
+height: Hug (48px)px;
+padding: 12px 24px 12px 24px;
+border-radius: 32px;
+opacity: 0px;
+color: white;
+font-size: 16px;
+background-color: black;
+
+}
+.item5
+{  
+color: white;
+font-size: 24px;
+}
+.item5-black
+{  
+color: black;
+font-size: 24px;
+}
+.itemA
+{
+    width: 302px;
+    height: 148px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px #00000014;
+
+}
+.itemx:hover
+{
+    border-radius: 30% 30% 30% 30%;
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+}
+.p-20
+{
+    color: black;
+    font-size: 20px; 
+    line-height: 30px;
+    padding: 5px;  
+}
+.p-16
+{
+    color: black;
+    font-size: 16px;   
+    line-height: 30px; 
+    padding: 5px;  
+}
+
+.black
+{
+    color: black;
+      
+}
+.gap-24
+{
+    gap: 24px 24px;
+}
+.gap-36
+{
+    gap: 36px 36px;
+}
+.d-flex
+{
+ display:flex;
+  
+}
+.fww
+{
+    flex-wrap:wrap;
+}
+.jcsb
+{
+    justify-content: space-between;
+}
+.jcfe
+{
+    justify-content: flex-end;
+}
+.fdr
+{
+    flex-direction: row;
+}
+
+.fdc
+{
+    flex-direction: column;
+}
+.aic
+{
+ align-items: center;
+}
+.aifs
+{
+    align-items: flex-start; 
+}
+.align-self {
+     align-self: flex-end;
+  }
+.h-196
+{
+    height:196;
+}
+
+.w-306
+{
+    width: 306px;
+}
+.w-365
+{
+    width: 365px;
+}
+.w-416
+{
+    width: 416px;
+}
+.w-526
+{
+    width: 526px;
+}
+.w-636
+{
+    width: 636px;
+}
+.w-657
+{
+    width: 657px;
+}
+.w-746
+{
+    width: 746px;
+}
+.w-856
+{
+    width: 856px;
+}
+.pad-up-160
+{
+ padding:160px 0px 0px 0px;   
+}
+
+.pad-160
+{
+ padding:160px 0px 160px 0px;   
+}
+.pad-up-76
+{
+ padding:76px 0px 0px 0px;   
+}
+.pad-96
+{
+ padding:96px 0px 96px 0px;   
+}
+.pad-40-312
+{
+ padding:40px 312px 40px 312px;   
+}
+.pad-40
+{
+ padding:40px 0px 40px 0px;   
+}
+
+
+.right
+{
+   
+    margin-left:auto;
+}
+
+.left
+{
+    margin-right:auto;
+}
+
+.center
+{
+    text-align:center;
+}
+.acc
+{
+align-content: center; 
+}
